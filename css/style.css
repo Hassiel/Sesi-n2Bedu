@@ -1,14 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 *{margin:0px; 
  padding:0px; 
- font-family:Arial, Sans-serif;
+ font-family: 'Space Mono', monospace;
 }
+
+
 nav{
-    background-color: aqua;
     width: 100%;
     height: 90px;
-    position: sticky;
+    z-index: 9994;
+    display: flex;
+}
+#Logo{
+    height: 100px;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;  
+}
+nav ul li{
+    margin: 0px 20px;
 }
 #Hero{
     height: 100vh;
-    background-color: beige;
+    background-image: url(../img/bghero.png);
+}
+main{
+    background-image: url(../img/bghero.png);
+    height: 100vh;
+    ;
 }
